@@ -7,7 +7,7 @@ import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import FooterLogo from '@/components/footer/FooterLogo';
-import { DollarSign, Graph, Percent } from 'lucide-react';
+import { DollarSign, Percent } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -55,8 +55,8 @@ export default function Home() {
           description="Understanding our cryptocurrency's structure."
           kpiItems={[
             { value: "1M", description: "Total Supply", longDescription: "The total supply of tokens available.", icon: DollarSign },
-            { value: "500K", description: "Market Cap", longDescription: "Current market capitalization of our token.", icon: Graph },
-            { value: "5%", description: "Transaction Fee", longDescription: "Percentage fee taken on each transaction.", icon: Percent },
+            { value: "500K", description: "Market Cap", longDescription: "Current market capitalization of our token.", icon: Percent },
+            { value: "5%", description: "Transaction Fee", longDescription: "Percentage fee taken on each transaction.", icon: Percent }
           ]}
         />
       </div>
@@ -66,7 +66,6 @@ export default function Home() {
           items={[
             { title: "What is NovaPulse?", content: "NovaPulse is a SaaS platform for..." },
             { title: "How to get started?", content: "Create an account and connect your wallet." },
-            // Additional FAQ items
           ]}
         />
       </div>
