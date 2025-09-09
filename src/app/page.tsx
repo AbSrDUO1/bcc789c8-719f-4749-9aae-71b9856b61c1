@@ -7,6 +7,7 @@ import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { DollarSign, Graph, Percent } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -43,7 +44,7 @@ export default function Home() {
           steps={[
             { title: "Step 1", description: "Create an account.", image: "/images/placeholder1.avif", position: "left", isCenter: false },
             { title: "Step 2", description: "Connect your wallet.", image: "/images/placeholder2.avif", position: "center", isCenter: true },
-            { title: "Step 3", description: "Purchase your tokens.", image: "/images/placeholder3.avif", position: "right", isCenter: false },
+            { title: "Step 3", description: "Purchase your tokens.", image: "/images/placeholder3.avif", position: "right", isCenter: false }
           ]}
         />
       </div>
