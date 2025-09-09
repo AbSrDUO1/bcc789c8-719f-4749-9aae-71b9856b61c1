@@ -53,9 +53,9 @@ export default function Home() {
           title="Tokenomics"
           description="Understanding our cryptocurrency's structure."
           kpiItems={[
-            { value: "1M", description: "Total Supply", longDescription: "The total supply of tokens available.", icon: "DollarSign" },
-            { value: "500K", description: "Market Cap", longDescription: "Current market capitalization of our token.", icon: "Graph" },
-            { value: "5%", description: "Transaction Fee", longDescription: "Percentage fee taken on each transaction.", icon: "Percent" },
+            { value: "1M", description: "Total Supply", longDescription: "The total supply of tokens available.", icon: DollarSign },
+            { value: "500K", description: "Market Cap", longDescription: "Current market capitalization of our token.", icon: Graph },
+            { value: "5%", description: "Transaction Fee", longDescription: "Percentage fee taken on each transaction.", icon: Percent },
           ]}
         />
       </div>
