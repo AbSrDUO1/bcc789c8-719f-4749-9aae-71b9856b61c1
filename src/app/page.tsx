@@ -14,7 +14,6 @@ export default function Home() {
       <NavbarBase
         logoSrc="/images/logo.svg"
         logoAlt="NovaPulse Logo"
-        logoText="NovaPulse"
         leftButtonText=""
         rightButtonText="Start Free Trial"
         onLeftButtonClick={() => {}}
